@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Mode</title>
+    <link rel="icon" type="image/png" href="img/favicons.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="theme_switch_wrapper">
+        <span id="toggle_icon">
+            <span class="toggle_text">Light mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme_switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <nav id="nav">
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Contact">Contact</a>
+    </nav>
+    <section id="Home">
+      <div class="title">
+        <h1>Custome Title</h1>
+        <h2>Welcome to the site now</h2>
+      </div>
+    </section>
+    <section id="About">
+      <h1>Under illustration</h1>
+      <div class="abt_container">
+        <div class="img_container">
+          <h2>Web innovation</h2>
+          <img
+            src="img/undraw_proud_coder_light.svg"
+            alt="coder light"
+            id="image1"
+          />
+        </div>
+        <div class="img_container">
+          <h2>Problem solving</h2>
+          <img
+            src="img/undraw_feeling_proud_light.svg"
+            alt="feeling light"
+            id="image2"
+          />
+        </div>
+        <div class="img_container">
+          <h2>High concept</h2>
+          <img
+            src="img/undraw_conceptual_idea_light.svg"
+            alt="idea light"
+            id="image3"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="Projects">
+      <div class="btn">
+        <h1>Button</h1>
+        <div class="btn">
+          <button class="primary">Primary</button>
+          <button class="secondary">Secondary</button>
+          <button class="primary" disabled>Disable</button>
+          <button class="outline">Outline</button>
+          <button class="secondary outline">Alt outline</button>
+          <button class="outline" disabled>Disable</button>
+        </div>
+        <div class="text-box" id="text_box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ratione
+            neque dolor iste sapiente ea non optio laudantium eum vero maiores,
+            doloremque iure, vitae, quos odio blanditiis. Voluptatum, debitis
+            eligendi.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="Contact">
+    <div class="social_media">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+    </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
